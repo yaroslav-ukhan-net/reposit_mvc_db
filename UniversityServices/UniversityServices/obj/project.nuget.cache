@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0jvcb4lPtFccfaEBGo7i7bcdy4jH0FhcZgyap0MKkZl0MAGA4KNgROyJ+5GdQZ4X+VNZ+enoUnQ5+lhsx90GZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Reposit_mvc_db\\UniversityServices\\UniversityServices\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
