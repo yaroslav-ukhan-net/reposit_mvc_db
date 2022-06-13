@@ -1,0 +1,60 @@
+﻿@model WebApi.Dto.StudentDto
+
+<div class="container">
+    <main>
+        <form asp-action="@ViewBag.Action">
+            <div asp-validation-summary="All"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Student Name
+                        </th>
+                        <th>
+                            Birth Date
+                        </th>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            Phone Number
+                        </th>
+                        <th>
+                            GitHub link
+                        </th>
+                        <th>
+                            Notes
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>
+                            <input asp-for="Name" />
+                        </th>
+                        <th>
+                            <input asp-for="BirthDate" />
+                        </th>
+                        <th>
+                            <input asp-for="Email" />
+                        </th>
+                        <th>
+                            <input asp-for="PhoneNumber" />
+                        </th>
+                        <th>
+                            <input asp-for="GitHubLink" />
+                        </th>
+                        <th>
+                            <input asp-for="Notes" />
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Save" />
+        </form>
+    </main>
+</div>
+@section Scripts
+{
+    <script></script>
+}

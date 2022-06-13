@@ -1,0 +1,50 @@
+﻿@model WebApi.Dto.CourseDto
+
+<div class="container">
+    <main>
+        <form asp-action="@ViewBag.Action">
+            <div asp-validation-summary="All"></div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Start Date
+                        </th>
+                        <th>
+                            End Date
+                        </th>
+                        <th>
+                            pass credit
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>
+                            <input asp-for="Name" />
+                            <span asp-validation-for="Name"></span>
+                        </th>
+                        <th>
+                            <input asp-for="StartDate" />
+                        </th>
+                        <th>
+                            <input asp-for="EndDate" />
+                        </th>
+                        <th>
+                            <input asp-for="PassCredits" />
+                            <span asp-validation-for="PassCredits"></span>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="submit" value="Save" />
+        </form>
+    </main>
+</div>
+@section Scripts
+{ 
+    <script></script>
+}
